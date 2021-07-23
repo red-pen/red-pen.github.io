@@ -23,6 +23,6 @@
     "outDir": "docs"
   },
   "include": [
-    "src"
+    "src",
   ]
 }

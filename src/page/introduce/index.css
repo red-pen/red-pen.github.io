@@ -1,4 +1,34 @@
 .wrapper {
   height: 100%;
-  background: '../../assets/image/background.jpeg';
+  background-image: url('../../assets/image/background.jpeg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .content {
+  text-align: center;
+}
+.wrapper .content .avatar img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.wrapper .content .userName {
+  font-size: 24px;
+  color: #9e8d8d;
+}
+.wrapper .content .motto {
+  font: 16px;
+  color: #dad4d4;
+}
+.wrapper .content .button {
+  padding: 10px 20px;
+  border: 2px solid #c1bbbb;
+  border-radius: 6px;
+  color: white;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.wrapper .content .button:hover {
+  color: red;
 }

@@ -1,9 +1,16 @@
-// import {Button} from 'antd'
 import './index.less'
+import avatar from '../../assets/image/cat.jpg'
 const  Custom = () => {
     return <div className='wrapper'>
-        <div>1111</div>
-        <img src="../../assets/image/background.jpeg" alt=""/>
+        <div className='content'>
+            <div className='avatar'>
+                <img src={avatar} alt=""/>
+            </div>
+            <p className='userName'>猫菇娘</p>
+            <p className='motto'>我是座右铭</p>
+            <div className='button'>进入主页</div>
+        </div>
+
     </div>
 }
 

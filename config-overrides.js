@@ -11,15 +11,16 @@ const rewriteEntry = () => config => {
   }
   return config;
 };
+
  module.exports = override(
-   fixBabelImports('import', {
-     libraryName: 'antd',
-     style: 'css',
-     libraryDirectory: "es",
-   }),
-   addLessLoader({
-    javascriptEnabled: true,
-    modifyVars:{'@primary-color':'red'},
-  }),
-  rewriteEntry(),
+    rewriteEntry(),
+    fixBabelImports('import', {
+      libraryName: 'antd',
+      style: 'css',
+      libraryDirectory: "es",
+    }),
+    addLessLoader({
+      javascriptEnabled: true,
+      modifyVars:{'@primary-color':'red'},
+    }),
 );
