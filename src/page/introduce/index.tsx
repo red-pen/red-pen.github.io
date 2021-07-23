@@ -1,7 +1,10 @@
-import React from 'react'
-import {Button} from 'antd'
+// import {Button} from 'antd'
+import './index.less'
 const  Custom = () => {
-    return <div>个人介绍<Button type='primary'>测试</Button></div>
+    return <div className='wrapper'>
+        <div>1111</div>
+        <img src="../../assets/image/background.jpeg" alt=""/>
+    </div>
 }
 
 export default Custom;

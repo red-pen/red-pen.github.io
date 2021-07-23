@@ -19,7 +19,7 @@ const rewriteEntry = () => config => {
    }),
    addLessLoader({
     javascriptEnabled: true,
-    modifyVars:{'@primary-color':'#97d496'},
+    modifyVars:{'@primary-color':'red'},
   }),
   rewriteEntry(),
 );

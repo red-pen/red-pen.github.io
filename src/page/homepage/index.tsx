@@ -1,5 +1,4 @@
-import React from 'react'
-
+import './index.less'
 const  Custom = () => {
     return <div>homePage</div>
 }
